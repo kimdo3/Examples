@@ -42,7 +42,6 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.axSKCommAX1 = new AxSKCOMMAXLib.AxSKCommAX();
-            this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axSKCommAX1)).BeginInit();
@@ -106,7 +105,6 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button3);
             this.groupBox2.Controls.Add(this.textBox4);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.button2);
@@ -170,15 +168,6 @@
             this.axSKCommAX1.Size = new System.Drawing.Size(100, 50);
             this.axSKCommAX1.TabIndex = 2;
             // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(237, 5);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(35, 38);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -213,7 +202,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox4;
         private AxSKCOMMAXLib.AxSKCommAX axSKCommAX1;
-        private System.Windows.Forms.Button button3;
     }
 }
 
